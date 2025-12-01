@@ -17,4 +17,5 @@ router.get('/user/:id', (req, res) => res.send({title: "GET all user subscriptio
 router.put('/:id/cancel', (req, res) => res.send({title: "CANCEL subscription"}));
 
 router.get('/upcoming-renewals', (req, res) => res.send({title: "GET upcoming renewals"}));
+
 export default router;
